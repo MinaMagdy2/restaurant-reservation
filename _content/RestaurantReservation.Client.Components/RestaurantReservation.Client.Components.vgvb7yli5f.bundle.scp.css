@@ -1,0 +1,198 @@
+/* _content/RestaurantReservation.Client.Components/Components/RoomNumberEntry.razor.rz.scp.css */
+
+/*.num-btn {
+    width: 100px !important;
+    height: 80px !important;
+    font-size: 1.5rem !important;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+    transition: background 0.3s ease;
+}
+
+.num-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.keypad {
+    margin-bottom: 60px;
+}
+
+
+
+.mud-input-root {
+    border: 2px solid white !important;
+    border-radius: 8px !important;
+}
+
+    .mud-input-root:hover {
+        border-color: #ffffff !important;
+    }
+
+    .mud-input-root.mud-input-root-filled.mud-input-root-focused {
+        border-color: #ffffff !important;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.6) !important;
+    }
+
+.mian {
+    background-image: url('Goldenbeach.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+.num-btn {
+    width: 100px !important;
+    height: 80px !important;
+    font-size: 1.5rem !important;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+    transition: background 0.3s ease;
+}
+
+    .num-btn:hover {
+        background-color: rgba(255, 255, 255, 0.3) !important;
+    }
+
+.keypad {
+    margin-bottom: 60px;
+    z-index: 999;
+}
+
+.room-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    margin-top: 80px;
+    z-index: 3;
+    position: relative;
+}
+
+.mud-input-root {
+    border: 2px solid white !important;
+    border-radius: 8px !important;
+}
+
+    .mud-input-root:hover {
+        border-color: #ffffff !important;
+    }
+
+    .mud-input-root.mud-input-root-filled.mud-input-root-focused {
+        border-color: #ffffff !important;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.6) !important;
+    }
+
+.rooms-panel {
+    position: absolute;
+    left: 6px;
+    top: 120px;
+    width: 415px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 20px;
+    z-index: 3;
+    color: white;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.rooms-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.rooms-table {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+    .rooms-table .mud-table-cell {
+        color: white !important;
+        border-color: rgba(255, 255, 255, 0.2) !important;
+    }
+
+    .rooms-table .mud-icon-button, .rooms-table .mud-button {
+        color: #ff6b6b !important;
+    }
+
+    .rooms-table .mud-button {
+        border-color: #ff6b6b !important;
+    }
+
+td.mud-table-cell {
+    font-size: x-large;
+}
+
+.mud-button-label {
+    font-size: x-large;
+}
+
+.popup-paper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;*/ /* أعلى من overlay */
+    /*background-color: rgba(30, 30, 30, 0.95);*/ /* خلفية شبه مظللة لكن واضحة */
+    /*border-radius: 12px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    width: 420px;
+}
+
+/*/ /* MOBILE ONLY */
+/*@media (max-width: 768px) {
+    .rooms-panel {
+        position: relative !important;
+        left: 6px;
+        top: 0px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
+        padding: 20px;
+        z-index: 3;
+        color: white;
+        backdrop-filter: blur(6px);
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-top {
+        order: 2;*/ /* ينزل تحت */
+    /*}
+
+    .rooms-wrapper {
+        order: 1;*/ /* يطلع فوق */
+    /*}
+
+    .rooms-panel {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        margin-bottom: 20px !important;
+        margin-top: 10px !important;
+    }
+}*/
+
