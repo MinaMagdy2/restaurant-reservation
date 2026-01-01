@@ -4,44 +4,24 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RestaurantReservation.Client</title>
+    <title>RestaurantReservation</title>
+
+    <!-- مهم جدا -->
     <base href="/restaurant-reservation/" />
 
-    <!-- Preload dotnet بدون integrity -->
-    <link href="_framework/dotnet.d3pj4and6u.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" />
-
-    <!-- Bootstrap CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
-    <!-- Blazor & MudBlazor CSS -->
     <link href="_content/Blazor.Bootstrap/blazor.bootstrap.css" rel="stylesheet" />
     <link href="_content/MudBlazor/MudBlazor.min.css" rel="stylesheet" />
 
-    <!-- Project CSS -->
     <link rel="stylesheet" href="css/app.css" />
     <link href="RestaurantReservation.Client.styles.css" rel="stylesheet" />
     <link href="_content/RestaurantReservation.Client.Components/css/Client.Component.css" rel="stylesheet" />
 
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png" />
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-
-    <!-- Import map بدون integrity -->
-    <script type="importmap">
-        {
-          "imports": {
-            "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.66stpp682q.js",
-            "./_framework/dotnet.js": "./_framework/dotnet.d3pj4and6u.js",
-            "./_framework/dotnet.native.js": "./_framework/dotnet.native.9eeclxj7xx.js",
-            "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.o0qy896u8v.js"
-          },
-          "scopes": {}
-        }
-    </script>
 </head>
 
 <body>
@@ -58,12 +38,14 @@
         <span class="dismiss">🗙</span>
     </div>
 
-    <!-- Scripts بدون integrity -->
-    <script src="_framework/blazor.webassembly.66stpp682q.js" crossorigin="anonymous"></script>
+    <!-- Blazor (سيبه كده بدون hash) -->
+<script src="_framework/blazor.webassembly.66stpp682q.js"></script>
+    <!-- External JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.umd.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.umd.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
     <script src="_content/Blazor.Bootstrap/blazor.bootstrap.js"></script>
     <script src="_content/MudBlazor/MudBlazor.min.js"></script>
     <script src="scrollReveal.js"></script>
